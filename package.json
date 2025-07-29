@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@lit/localize-tools": "^0.8.0",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
@@ -17,6 +18,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@lit/localize": "^0.12.2",
     "lit": "^2.5.0"
   }
 }

@@ -1,4 +1,5 @@
 import { html, LitElement } from 'lit';
+import { msg, str } from '@lit/localize';
 
 class MyElement extends LitElement {
   static properties = {
@@ -13,11 +14,13 @@ class MyElement extends LitElement {
 
   render() {
     return html`
-      <h1>Welcome, ${this.name}</h1>
-      <p>I hope you are in good condition</p>
+      <h1>${msg(str`Welcome, ${this.name}`)}</h1>
+      <p>${msg('I hope you are in good condition')}</p>
       <p>
-        Please visit <a href="https://www.dicoding.com/" target="_blank">This Site</a> to be
-        professional programmer
+        ${msg(html`
+          Please visit <a href="https://www.dicoding.com/" target="_blank">This Site</a> to be a
+          professional programmer
+        `)}
       </p>
     `;
   }
