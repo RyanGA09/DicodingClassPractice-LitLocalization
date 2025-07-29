@@ -1,1 +1,1 @@
-# DicodingClassPractice-LitLocalization
+# Dicoding Class Practice - Lit Localization
