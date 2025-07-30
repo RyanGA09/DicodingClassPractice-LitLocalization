@@ -4,7 +4,8 @@
   "description": "Lit starter project by Dicoding Indonesia",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "localize:build": "lit-localize build"
   },
   "keywords": [],
   "author": "",
