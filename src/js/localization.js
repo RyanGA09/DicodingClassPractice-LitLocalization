@@ -1,5 +1,5 @@
 import { configureLocalization } from '@lit/localize';
-import { sourceLocale, targetLocales } from '../generated/locale-codes';
+import { sourceLocale, targetLocales } from '../generated/locale-codes.js';
 
 export const { getLocale, setLocale } = configureLocalization({
   sourceLocale,
@@ -20,6 +20,6 @@ export const setLocaleFromUrl = async () => {
 
 export const localeNames = {
   en: 'Inggris',
-  es: `Spanyol`,
+  es: 'Spanyol',
   id: 'Indonesia',
 };
